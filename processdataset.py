@@ -3,6 +3,10 @@ import numpy as np
 import os
 import random
 
+'''
+Add rotation and brightness to original dataset
+'''
+
 dirs = os.listdir("dataset/original")
 
 #change the brightness and contrast of the image
